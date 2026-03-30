@@ -3,6 +3,10 @@
 # Complete Multiple Linear Regression Pipeline + EDA + Insights
 # =====================================================
 
+import sys
+import io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -15,7 +19,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 
 # ====================== 1. LOAD DATA ======================
-df = pd.read_csv('50_Startups.csv')
+df = pd.read_csv('Datasets/50_startups_dataset.csv')
 print("✅ Dataset loaded successfully!")
 print(f"Shape: {df.shape}\n")
 print(df.head())

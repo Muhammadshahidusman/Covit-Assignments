@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:\\\\Users\\\\SHEHER SAAZ\\\\Music\\\\Riphah University\\\\COURSES\\\\Class Assignment\\\\project02\" && python main.py)"
+    ]
+  }
+}
