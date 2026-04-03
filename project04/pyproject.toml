@@ -1,0 +1,19 @@
+[project]
+name = "project04"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11.14"
+dependencies = [
+    "arxiv>=2.4.1",
+    "ddgs>=9.12.0",
+    "ipykernel>=7.2.0",
+    "langchain>=1.2.14",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.25",
+    "langchain-ollama>=1.0.1",
+    "langgraph>=1.1.4",
+    "langgraph-checkpoint-sqlite>=3.0.3",
+    "numpy>=2.4.4",
+    "wikipedia>=1.4.0",
+]
