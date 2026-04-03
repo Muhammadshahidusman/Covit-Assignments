@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pip install reportlab pygments langchain-core langchain-community -q)",
+      "Bash(where python:*)",
+      "Bash(python -m ensurepip --default-pip)"
+    ]
+  }
+}
