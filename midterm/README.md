@@ -1,5 +1,6 @@
 # AgentLens 🔍
 > AI-Powered LLM Discovery Assistant for Agentic AI Workflows
+By Muhammad Shahid Usman
 
 ## Setup
 
